@@ -76,36 +76,53 @@ header {
     justify-content: center;
     align-items: center;
     background-color: #b4d0e6;
-    height: 400px;
+    height: 500px;
 }
 
 .jumbo {
-    width: 80%;
+    width: 70%;
+    padding: 20px 0;
     /* DEBUG */
-    background-color: green;
-    height: 350px;
+    /* background-color: green; */
+    /* height: 350px; */
 }
 
 .jumbo-content {
     display: flex;
-    align-items: center;
+    padding: 15px 0;
     /* DEBUG */
-    background-color: brown;
-    height: 330px;
+    /* background-color: brown; */
+    /* height: 330px; */
 }
 
 .jumbo-text {
-    width: 30%;
+    width: 35%;
     /* DEBUG */
-    background-color: yellow;
-    height: 280px;
+    /* background-color: yellow; */
+    /* height: 280px; */
 }
 
 .jumbo-img {
-    width: 70%;
+    width: 65%;
     /* DEBUG */
-    background-color: grey;
-    height: 280px;
+    /* background-color: grey; */
+    /* height: 280px; */
+}
+
+.jumbo-img img {
+    width: 100%;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.jumbo-text p {
+    margin-bottom: 25px;
+}
+
+.jumbo-text div {
+    margin-top: 25px;
 }
 
 /* regole main */
@@ -225,4 +242,3 @@ footer {
     background-color: green;
     height: 100px;
 }
-
