@@ -70,6 +70,12 @@ header {
     display: inline-block;
 }
 
+.button-partner {
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+}
+
 .check-box {
     display: inline-block;
     border: 2px solid grey;
@@ -260,24 +266,34 @@ h2 {
 
 .partner {
     display: flex;
-    align-items: center;
+    margin-bottom: 40px;   
     /* DEBUG */
-    background-color: blue;
+    /* background-color: blue; */
     /* height: 300px; */
 }
 
 .partner-img {
     width: 60%;
     /* DEBUG */
-    background-color: grey;
+    /* background-color: grey; */
     /* height: 280px; */
+}
+
+.partner-img img {
+    width: 100%;
 }
 
 .main-text {
     width: 40%;
+    padding: 30px 20px;
     /* DEBUG */
-    background-color: black;
+    /* background-color: black; */
     /* height: 280px; */
+}
+
+.main-text h3,
+.main-text div {
+    padding-bottom: 20px;
 }
 
 
