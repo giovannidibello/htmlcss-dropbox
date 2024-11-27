@@ -200,17 +200,6 @@ h2 {
     padding: 20px 10px;
 }
 
-.plan-cont-pers {
-    display: flex;
-}
-
-.plan-pers {
-    border: 1px solid grey;
-    /* DEBUG */
-    /* background-color: violet; */
-    /* height: 200px; */
-}
-
 .text-col {
     color: grey;
     padding: 10px 0 20px 0;
@@ -232,6 +221,39 @@ h2 {
 
 #text-dec a {
     text-decoration: underline;
+}
+
+/* regole sezione piano personalizzato */
+
+.plan-pers {
+    border: 1px solid grey;
+    margin-bottom: 30px;
+    /* DEBUG */
+    /* background-color: violet; */
+    /* height: 200px; */
+}
+
+.plan-cont-pers {
+    display: flex;
+}
+
+.plan-pers-pers {
+    display: flex;
+}
+
+.plan-cont-pers h4,
+.plan-cont-pers h6 {
+    padding-bottom: 15px;
+}
+
+
+.plan-pers-text {
+    width: 70%;
+}
+
+.plan-pers-button {
+    width: 30%;
+    text-align: center;
 }
 
 /* regole sezione partner */
