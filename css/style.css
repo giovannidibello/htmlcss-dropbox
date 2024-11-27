@@ -26,8 +26,47 @@ header {
     height: 60px;
 }
 
-.left-main, .right-main {
+.left-nav, .right-nav {
     /* DEBUG */
     background-color:blue;
     width: 30%;
+}
+
+/* regole jumbotron */
+
+.jumbotron {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b4d0e6;
+    height: 400px;
+}
+
+.jumbo {
+    width: 80%;
+    /* DEBUG */
+    background-color:green;
+    height: 350px;
+}
+
+.jumbo-content {
+    display: flex;
+    align-items: center;
+    /* DEBUG */
+    background-color:brown;
+    height: 350px;
+}
+
+.jumbo-text {
+    width: 30%;
+    /* DEBUG */
+    background-color:yellow;
+    height: 300px;
+}
+
+.jumbo-img {
+    width: 70%;
+    /* DEBUG */
+    background-color:grey;
+    height: 300px;
 }
