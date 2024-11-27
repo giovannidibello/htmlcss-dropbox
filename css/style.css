@@ -7,3 +7,27 @@
 body {
     font-family: "Open+Sans:ital,wght@0,300..800;1,300..800&display=swap",Arial, Helvetica, sans-serif;
 }
+
+/* regole header */
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+    /* DEBUG */
+    background-color: red;
+    height: 60px;
+}
+
+.left-main, .right-main {
+    /* DEBUG */
+    background-color:blue;
+    width: 30%;
+}
