@@ -12,8 +12,12 @@ body {
     width: 70%;
     /* DEBUG */
     background-color: azure;
-    height: 800px;
+    /* height: 800px; */
 
+}
+
+li {
+    list-style: none;
 }
 
 /* regole header */
@@ -163,3 +167,38 @@ main {
     background-color: red;
     height: 300px;
 }
+
+/* regole footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 350px;
+    width: 100%;
+}
+
+.section-foot {
+    width: 80%;
+    /* DEBUG */
+    background-color: red;
+    height: 300px;
+}
+
+.foot-nav {
+    display: flex;
+    justify-content: space-between;
+    /* DEBUG */
+    background-color: blue;
+    height: 200px;
+}
+
+.foot-text {
+    width: 15%;
+    border-top: 2px solid grey;
+    /* DEBUG */
+    background-color: green;
+    height: 100px;
+}
+
