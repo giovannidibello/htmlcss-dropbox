@@ -87,6 +87,9 @@ main {
     justify-content: center;
 }
 
+
+/* regole sezione piani */
+
 .section-plans {
     /* DEBUG */
     background-color: orange;
@@ -96,7 +99,7 @@ main {
 .plan-types {
     display: flex;
     justify-content: space-between;
-    align-items: stretch;    
+    align-items: stretch;
 }
 
 .plan {
@@ -110,4 +113,53 @@ main {
     /* DEBUG */
     background-color: violet;
     height: 200px;
+}
+
+/* regole sezione partner */
+
+.partner {
+    display: flex;
+    align-items: center;
+    /* DEBUG */
+    background-color: blue;
+    height: 300px;
+}
+
+.partner-img {
+    width: 60%;
+    /* DEBUG */
+    background-color: grey;
+    height: 280px;
+}
+
+.main-text {
+    width: 40%;
+    /* DEBUG */
+    background-color: black;
+    height: 280px;
+}
+
+/* regole sezione business */
+
+.business {
+    width: 100%;
+    /* DEBUG */
+    background-color: goldenrod;
+    height: 800px;
+}
+
+.business-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* DEBUG */
+    background-color: cyan;
+    height: 650px;
+}
+
+.box {
+    width: 32%;
+    /* DEBUG */
+    background-color: red;
+    height: 300px;
 }
