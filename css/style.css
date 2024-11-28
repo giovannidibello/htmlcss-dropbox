@@ -230,6 +230,7 @@ h2 {
 }
 
 .plan-cont li {
+    display: flex;
     padding: 10px 0;
 }
 
