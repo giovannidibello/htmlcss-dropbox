@@ -171,6 +171,10 @@ h2 {
     padding: 30px 0;
 }
 
+.plan-cont h4 {
+    padding: 20px 0;
+}
+
 .section-plans {
     /* DEBUG */
     /* background-color: orange; */
@@ -185,7 +189,7 @@ h2 {
 }
 
 .plan {
-    width: 32%;
+    width: 30%;
     border: 1px solid grey;
     /* DEBUG */
     /* background-color: red; */
@@ -223,6 +227,17 @@ h2 {
 
 .plan-cont li {
     padding: 10px 0;
+}
+
+.plan-line {
+    width: 20%;
+    border-top: 1px solid grey;
+    margin-top: 30px;  
+    margin-bottom: 20px;  
+}
+
+.blue-sign i {
+    color: #0066ff;
 }
 
 #text-dec a {
