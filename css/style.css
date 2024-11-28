@@ -12,9 +12,6 @@ body {
 
 .container {
     width: 65%;
-    /* DEBUG */
-    /* background-color: azure; */
-    /* height: 800px; */
 }
 
 li {
@@ -28,6 +25,11 @@ img {
 h1 {
     font-size: 50px;
     margin-top: 50px;
+}
+
+h2 {
+    font-size: 35px;
+    padding: 30px 0;
 }
 
 /* regole header */
@@ -53,24 +55,18 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 98%; 
-    /* DEBUG */
-    /* background-color: red; */
-    /* height: 60px; */
+    width: 98%;
 }
 
 .left-nav,
 .right-nav {
-    font-size: 20px;
-    /* DEBUG */
-    /* background-color: blue; */
-    /* width: 30%; */
+    font-size: 20px;    
 }
 
 .main-nav a {
     padding: 0 5px;
     text-decoration: none;
-    color: inherit;    
+    color: inherit;
 }
 
 /* regole button */
@@ -128,38 +124,26 @@ header {
 }
 
 .jumbo {
-    width: 70%;
-    /* DEBUG */
-    /* background-color: green; */
-    /* height: 350px; */
+    width: 70%;    
 }
 
 .jumbo-content {
     display: flex;
-    padding: 15px 0;
-    /* DEBUG */
-    /* background-color: brown; */
-    /* height: 330px; */
+    padding: 15px 0;    
 }
 
 .jumbo-text {
-    width: 35%;
-    /* DEBUG */
-    /* background-color: yellow; */
-    /* height: 280px; */
+    width: 35%;    
 }
 
 .jumbo-img {
     width: 65%;
     position: relative;    
-    /* DEBUG */
-    /* background-color: grey; */
-    /* height: 280px; */
 }
 
 .jumbo-img img {
-    position: absolute; 
-    bottom: -60px; 
+    position: absolute;
+    bottom: -60px;
 }
 
 .jumbo-text p {
@@ -173,7 +157,7 @@ header {
 
 .arrow-down {
     font-size: 25px;
-    color: black;    
+    color: black;
 }
 
 /* regole main */
@@ -186,22 +170,15 @@ main {
 
 /* regole sezione piani */
 
-
-h2 {
-    font-size: 35px;
-    padding: 30px 0;
-}
-
-.plan-cont h4 {
-    padding: 20px 0;
-}
-
 .section-plans {
-    margin-top: 50px;
-    /* DEBUG */
-    /* background-color: orange; */
-    /* height: 680px; */
+    margin-top: 50px;    
 }
+
+.checkbox-container {
+    padding-bottom: 20px;
+}
+
+/* regole sezioni piani */
 
 .plan-types {
     display: flex;
@@ -212,14 +189,7 @@ h2 {
 
 .plan {
     width: 30%;
-    border: 1px solid grey;
-    /* DEBUG */
-    /* background-color: red; */
-    /* height: 400px; */
-}
-
-.checkbox-container {
-    padding-bottom: 20px;
+    border: 1px solid grey;    
 }
 
 .plan-cat {
@@ -232,16 +202,9 @@ h2 {
     padding: 20px 10px;
 }
 
-.text-col {
-    color: grey;
-    padding: 10px 0 20px 0;
+.plan-cont h4 {
+    padding: 20px 0;
 }
-
-#button-plan {
-    padding: 30px 0 30px 0;
-    text-align: center;
-}
-
 
 .plan-cont i {
     padding-right: 5px;
@@ -250,6 +213,16 @@ h2 {
 .plan-cont li {
     display: flex;
     padding: 10px 0;
+}
+
+.text-col {
+    color: grey;
+    padding: 10px 0 20px 0;
+}
+
+#button-plan {
+    padding: 30px 0 30px 0;
+    text-align: center;
 }
 
 .plan-line {
@@ -267,10 +240,7 @@ h2 {
 
 .plan-pers {
     border: 1px solid grey;
-    margin-bottom: 30px;
-    /* DEBUG */
-    /* background-color: violet; */
-    /* height: 200px; */
+    margin-bottom: 30px;    
 }
 
 .plan-cont-pers {
@@ -286,7 +256,6 @@ h2 {
     padding-bottom: 15px;
 }
 
-
 .plan-pers-text {
     width: 70%;
 }
@@ -300,25 +269,16 @@ h2 {
 
 .partner {
     display: flex;
-    margin-bottom: 40px;
-    /* DEBUG */
-    /* background-color: blue; */
-    /* height: 300px; */
+    margin-bottom: 40px;    
 }
 
 .partner-img {
-    width: 60%;
-    /* DEBUG */
-    /* background-color: grey; */
-    /* height: 280px; */
+    width: 60%;    
 }
 
 .main-text {
     width: 40%;
-    padding: 30px 20px;
-    /* DEBUG */
-    /* background-color: black; */
-    /* height: 280px; */
+    padding: 30px 20px;    
 }
 
 .main-text h3,
@@ -330,26 +290,17 @@ h2 {
 /* regole sezione business */
 
 .business {
-    width: 100%;
-    /* DEBUG */
-    /* background-color: goldenrod; */
-    /* height: 800px; */
+    width: 100%;    
 }
 
 .business-box {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
-    /* DEBUG */
-    /* background-color: cyan; */
-    /* height: 650px; */
+    flex-wrap: wrap;    
 }
 
 .box {
-    width: 32%;
-    /* DEBUG */
-    /* background-color: red; */
-    /* height: 300px; */
+    width: 32%;    
 }
 
 .box img {
@@ -371,27 +322,20 @@ footer {
     display: flex;
     justify-content: center;
     background-color: black;
-    /* height: 400px; */
     width: 100%;
     margin-top: 60px;
 }
 
 .section-foot {
     width: 70%;
-    padding-top: 40px;
-    /* DEBUG */
-    /* background-color: red; */
-    /* height: 300px; */
+    padding-top: 40px;    
 }
 
 .foot-nav {
     display: flex;
     justify-content: space-between;
     color: white;
-    margin-bottom: 30px;
-    /* DEBUG */
-    /* background-color: blue; */
-    /* height: 400px; */
+    margin-bottom: 30px;    
 }
 
 .foot-nav h3 {
@@ -407,10 +351,7 @@ footer {
     width: 15%;
     color: grey;
     border-top: 2px solid grey;
-    padding: 40px 0;
-    /* DEBUG */
-    /* background-color: green; */
-    /* height: 100px; */
+    padding: 40px 0;    
 }
 
 .section-foot a {
