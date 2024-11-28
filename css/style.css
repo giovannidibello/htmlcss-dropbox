@@ -70,7 +70,7 @@ header {
 .main-nav a {
     padding: 0 5px;
     text-decoration: none;
-    color: inherit;
+    color: inherit;    
 }
 
 /* regole button */
@@ -115,6 +115,15 @@ header {
 
 .button:hover {
     background-color: rgba(0, 97, 254, 0.7);
+}
+
+.button-partner:hover {
+    background-color: transparent;
+}
+
+.main-nav a:hover {
+    border-bottom: 1px solid grey;
+    padding-bottom: 25px;
 }
 
 /* regole jumbotron */
