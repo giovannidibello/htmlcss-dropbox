@@ -111,7 +111,11 @@ header {
     transform: translate(-50%, -50%); 
 } */
 
+/* regole hover */
 
+.button:hover {
+    background-color: rgba(0, 97, 254, 0.7);
+}
 
 /* regole jumbotron */
 
