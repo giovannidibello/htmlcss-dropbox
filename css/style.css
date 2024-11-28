@@ -36,8 +36,7 @@ h2 {
 
 header {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: center;    
     height: 80px;
     background-color: white;
     position: fixed;
@@ -46,21 +45,28 @@ header {
     width: 100%;
 }
 
-.main-nav img {
-    height: 22px;
-    text-align: center;
-}
-
 .main-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 100%;
     width: 98%;
+}
+
+.left-nav ul, .right-nav ul {
+    display: flex;    
+    height: 100%;
+}
+
+.left-nav li, .right-nav li {
+    align-content: center;
+    height: 100%;
 }
 
 .left-nav,
 .right-nav {
-    font-size: 20px;    
+    font-size: 20px; 
+    height: 100%;   
 }
 
 .main-nav a {
@@ -108,9 +114,12 @@ header {
     background-color: transparent;
 }
 
-.main-nav a:hover {
+.left-nav li:not(:first-child):hover {
     border-bottom: 1px solid grey;
-    padding-bottom: 25px;
+}
+
+.right-nav li:not(:last-child):hover {
+    border-bottom: 1px solid grey;
 }
 
 /* regole jumbotron */
@@ -247,10 +256,6 @@ main {
     display: flex;
 }
 
-.plan-pers-pers {
-    display: flex;
-}
-
 .plan-cont-pers h4,
 .plan-cont-pers h6 {
     padding-bottom: 15px;
@@ -301,10 +306,6 @@ main {
 
 .box {
     width: 32%;    
-}
-
-.box img {
-    width: 100%;
 }
 
 .box h3,
