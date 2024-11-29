@@ -86,6 +86,15 @@ header {
     text-decoration: none;
 }
 
+.main-nav a.button {
+    color: white; 
+}
+
+.button-plan {
+    padding: 30px 0 30px 0;
+    text-align: center;
+}
+
 .button-partner {
     background-color: transparent;
     color: black;
@@ -228,11 +237,6 @@ main {
 .text-col {
     color: grey;
     padding: 10px 0 20px 0;
-}
-
-#button-plan {
-    padding: 30px 0 30px 0;
-    text-align: center;
 }
 
 .plan-line {
